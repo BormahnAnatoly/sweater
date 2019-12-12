@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1887bc9c-a841-4ee8-a67d-0415f93d9e6b" name="Default Changelist" comment="ver 1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/sweater_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e904fbb-b20e-48bb-8e9b-cf9ac6eaef8d.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e904fbb-b20e-48bb-8e9b-cf9ac6eaef8d/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e904fbb-b20e-48bb-8e9b-cf9ac6eaef8d/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e904fbb-b20e-48bb-8e9b-cf9ac6eaef8d/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e904fbb-b20e-48bb-8e9b-cf9ac6eaef8d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/sweater.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/config/EncriptionConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/config/MailConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/ControllerUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/MessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/RegistrationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/dto/CaptchaResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/dto/MessageDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/domain/util/MessageHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/repos/MessageRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/repos/UserRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/service/MailSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/service/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweater/service/UserSevrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__Init_DB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V2__Add_admin.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V3__Encode_passwords.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V4__Add_subscriptions_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V5__Add_message_likes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/pager.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/profile.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/subscriptions.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/userList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sweater-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/sweater-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/sweater.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/sweater/LoginTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/sweater/MainControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/sweater/service/UserSevriceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/create-user-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/create-user-before.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/messages-list-after.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/messages-list-before.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/UserSevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweater/service/UserSevrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/sweater/service/UserSeviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/sweater/service/UserSevriceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="sweater5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\IdeaProjects\sweater\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UtFmxoAUiBXt1LBajeePlkhlKR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.14965986" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../sweater-Turbolinks/src/main/java/com/example/sweater/service/MessageService.java" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../sweater-hql" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IdeaProjects\sweater" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sweater" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.sweater.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.sweater.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Home\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1887bc9c-a841-4ee8-a67d-0415f93d9e6b" name="Default Changelist" comment="" />
+      <created>1576168151441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576168151441</updated>
+      <workItem from="1576168176435" duration="1024000" />
+      <workItem from="1576169491121" duration="1425000" />
+      <workItem from="1576170925428" duration="1124000" />
+      <workItem from="1576172062597" duration="4500000" />
+      <workItem from="1576181315687" duration="1850000" />
+      <workItem from="1576183364578" duration="1858000" />
+    </task>
+    <task id="LOCAL-00001" summary="ver 2.0 fix bugs">
+      <created>1576184342073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576184342073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="ver 2.0" />
+    <MESSAGE value="ver 2.0 fix bugs" />
+    <MESSAGE value="ver 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver 1.0" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="638" y="382" key="#Assign_Data_Sources" timestamp="1576174978700">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="638" y="382" key="#Assign_Data_Sources/0.30.1920.1050@0.30.1920.1050" timestamp="1576174978700" />
+    <state x="743" y="240" key="#Deployment" timestamp="1576185027335">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="743" y="240" key="#Deployment/0.30.1920.1050@0.30.1920.1050" timestamp="1576185027335" />
+    <state x="854" y="270" key="#Inspections" timestamp="1576184922035">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="854" y="270" key="#Inspections/0.30.1920.1050@0.30.1920.1050" timestamp="1576184922035" />
+    <state x="680" y="240" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576171184039">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="680" y="240" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576171184039" />
+    <state x="786" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1576183532919">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="786" y="279" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1576183532919" />
+    <state x="929" y="571" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1576184015981">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="929" y="571" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576184015981" />
+    <state x="745" y="7" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576184598273">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="745" y="7" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576184598273" />
+    <state x="711" y="320" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576183632301">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="711" y="320" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576183632301" />
+    <state x="726" y="177" key="CommitChangelistDialog2" timestamp="1576185038737">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="726" y="177" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1576185038737" />
+    <state x="488" y="180" width="1200" height="800" key="DiffContextDialog" timestamp="1576184839520">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="488" y="180" width="1200" height="800" key="DiffContextDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576184839520" />
+    <state x="868" y="337" key="FileChooserDialogImpl" timestamp="1576185058765">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="868" y="337" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1576185058765" />
+    <state x="1039" y="429" width="261" height="205" key="Github.ShareDialog" timestamp="1576185126683">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="1039" y="429" width="261" height="205" key="Github.ShareDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576185126683" />
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.0.center" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.0.left" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.0.right" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.1.bottom" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.1.center" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.1.left" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state width="1340" height="258" key="GridCell.Tab.1.right" timestamp="1576185223547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1340" height="258" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1576185223547" />
+    <state x="457" y="245" key="Maven.ArtifactSearchDialog" timestamp="1576169808581">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="457" y="245" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576169808581" />
+    <state x="610" y="233" key="SettingsEditor" timestamp="1576184292940">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="610" y="233" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1576184292940" />
+    <state x="634" y="414" key="com.intellij.ide.util.TipDialog" timestamp="1576168194360">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="634" y="414" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576168194360" />
+    <state x="969" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576185043443">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="969" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1576185043443" />
+    <state x="964" y="334" key="git4idea.merge.GitMergeDialog" timestamp="1576184378320">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="964" y="334" key="git4idea.merge.GitMergeDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1576184378320" />
+    <state x="811" y="364" key="svn.repositoryBrowser" timestamp="1576181452806">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="811" y="364" key="svn.repositoryBrowser/0.30.1920.1050@0.30.1920.1050" timestamp="1576181452806" />
+    <state x="778" y="357" key="svn4idea.import.options" timestamp="1576181451622">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="778" y="357" key="svn4idea.import.options/0.30.1920.1050@0.30.1920.1050" timestamp="1576181451622" />
+  </component>
+</project>

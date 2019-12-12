@@ -2,7 +2,6 @@ package com.example.sweater.service;
 
 import com.example.sweater.domain.User;
 import com.example.sweater.domain.dto.MessageDto;
-
 import com.example.sweater.repos.MessageRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
