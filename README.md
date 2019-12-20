@@ -1,6 +1,13 @@
-# sweater
-Spring Boot learning
+# sweater 
+*Spring Boot Learning*
 
-Use:
-maven, springboot, postgres, freemarker, flyway, bootstrap, recaptcha google, fontawesome, turbolinks
-
+#### Use tehnologies:
+- Maven;
+- Springboot;
+- Postgres;
+- Freemarker;
+- Flyway;
+- Bootstrap;
+- Recaptcha Google;
+- Fontawesome;
+- Turbolinks.
