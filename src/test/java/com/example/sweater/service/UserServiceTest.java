@@ -19,9 +19,9 @@ import java.util.Collections;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserSevriceTest {
+public class UserServiceTest {
     @Autowired
-    private UserSevrice userSevrice;
+    private UserService userService;
 
     @MockBean
     private UserRepo userRepo;
@@ -38,7 +38,7 @@ public class UserSevriceTest {
 
         user.setEmail("some@mail.ru");
 
-        boolean isUserCreated = userSevrice.addUser(user);
+        boolean isUserCreated = userService.addUser(user);
 
         Assert.assertTrue(isUserCreated);
         Assert.assertNotNull(user.getActivationCode());
@@ -63,7 +63,7 @@ public class UserSevriceTest {
                 .when(userRepo)
                 .findByUsername("John");
 
-        boolean isUserCreated = userSevrice.addUser(user);
+        boolean isUserCreated = userService.addUser(user);
 
         Assert.assertFalse(isUserCreated);
 
@@ -86,7 +86,7 @@ public class UserSevriceTest {
                 .when(userRepo)
                 .findByActivationCode("activate");
 
-        boolean isUserActivated = userSevrice.activateUser("activate");
+        boolean isUserActivated = userService.activateUser("activate");
 
         Assert.assertTrue(isUserActivated);
         Assert.assertNull(user.getActivationCode());
@@ -96,7 +96,7 @@ public class UserSevriceTest {
 
     @Test
     public void activateUserFailTest() {
-        boolean isUserActivated = userSevrice.activateUser("activate me");
+        boolean isUserActivated = userService.activateUser("activate me");
 
         Assert.assertFalse(isUserActivated);
 

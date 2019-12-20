@@ -45,14 +45,14 @@ public class LoginTest {
     @Test
     @Sql(value = {"/create-user-before.sql"}, executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
     public void correctLoginTest() throws Exception {
-        this.mockMvc.perform(formLogin().user("dru").password("1"))
+        this.mockMvc.perform(formLogin().user("admin").password("123"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/"));
     }
 
     @Test
     public void badCredentials() throws Exception {
-        this.mockMvc.perform(post("/login").param("username", "jonh"))
+        this.mockMvc.perform(post("/login").param("username", "user"))
                 .andDo(print())
                 .andExpect(status().isForbidden());
     }

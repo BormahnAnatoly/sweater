@@ -2,7 +2,7 @@ package com.example.sweater.controller;
 
 import com.example.sweater.domain.User;
 import com.example.sweater.domain.dto.CaptchaResponseDto;
-import com.example.sweater.service.UserSevrice;
+import com.example.sweater.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -24,7 +24,7 @@ public class RegistrationController {
     private final static String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secret=%s&response=%s";
 
     @Autowired
-    private UserSevrice userSevrice;
+    private UserService userService;
 
     @Value("${recaptcha.secret}")
     private String secret;
@@ -70,7 +70,7 @@ public class RegistrationController {
             return "registration";
         }
 
-        if (!userSevrice.addUser(user)) {
+        if (!userService.addUser(user)) {
             model.addAttribute("usernameError", "User exists!");
             return "registration";
         }
@@ -80,7 +80,7 @@ public class RegistrationController {
 
     @GetMapping("/activate/{code}")
     public String activate(Model model, @PathVariable String code) {
-        boolean isActivated = userSevrice.activateUser(code);
+        boolean isActivated = userService.activateUser(code);
 
         if (isActivated) {
             model.addAttribute("messageType", "success");

@@ -1,6 +1,6 @@
 package com.example.sweater.config;
 
-import com.example.sweater.service.UserSevrice;
+import com.example.sweater.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -15,7 +15,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
-    private UserSevrice userSevrice;
+    private UserService userService;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -39,7 +39,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userSevrice)
+        auth.userDetailsService(userService)
                 .passwordEncoder(passwordEncoder);
     }
 }
